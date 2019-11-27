@@ -1,5 +1,5 @@
 # RSVLP
-## 贓車辨識系統
+## 簡易贓車辨識App
 
 ### 操作
 ```
@@ -30,3 +30,5 @@
    * number.txt：辨識結果文字檔。
    * uploads 資料夾 → car.jpg：預備辨識之車牌影像。
 ```
+
+<img width="30%" height="30%" src="https://github.com/a10423006/RSVLP/blob/master/img/%E5%9C%96%E7%89%87%201.png">
