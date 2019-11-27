@@ -31,4 +31,4 @@
    * uploads 資料夾 → car.jpg：預備辨識之車牌影像。
 ```
 
-<img src="https://github.com/a10423006/RSVLP/blob/master/img/%E5%9C%96%E7%89%87%201.png">
+<img width="70%" height="70%" src="https://github.com/a10423006/RSVLP/blob/master/img/%E5%9C%96%E7%89%87%201.png">
