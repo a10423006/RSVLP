@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/selectpic_button2"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignEnd="@+id/imageView_pic"
+        android:layout_alignTop="@+id/selectpic_button"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/camera_icon" />
+
+    <ImageButton
+        android:id="@+id/selectpic_button"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_above="@+id/editText"
+        android:layout_alignStart="@+id/imageView_pic"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/folder_icon" />
+
+    <ImageButton
+        android:id="@+id/upload_button"
+        android:layout_width="400dip"
+        android:layout_height="225dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/scanner2" />
+
+    <ImageButton
+        android:id="@+id/opendata_button"
+        android:layout_width="130dp"
+        android:layout_height="115dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/npa" />
+
+    <ImageView
+        android:id="@+id/imageView_pic"
+        android:layout_width="300dp"
+        android:layout_height="125dp"
+        android:layout_alignBottom="@+id/upload_button"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="47dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:src="@drawable/up" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/upload_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ABC-5678"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+</RelativeLayout>
